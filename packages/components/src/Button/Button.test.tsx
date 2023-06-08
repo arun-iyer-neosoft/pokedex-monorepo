@@ -13,16 +13,14 @@ describe('Button', () => {
 	it('Renders button with the correct variant color', () => {
 		const { container } = render(<Button variant='primary'>click me</Button>);
 
-		expect(screen.getByText('click me').closest('button')).toHaveClass(
-			'bg-blue-600'
-		);
+		expect(screen.getByText('click me')).toHaveClass('bg-blue-600');
 		expect(container).toMatchSnapshot();
 	});
 
 	it('Button should be disabled when loading is true', () => {
 		const { container } = render(<Button isLoading={true}>click me</Button>);
 
-		expect(screen.getByText('click me').closest('button')).toBeDisabled();
+		expect(screen.getByText('click me')).toBeDisabled();
 		expect(container).toMatchSnapshot();
 	});
 });

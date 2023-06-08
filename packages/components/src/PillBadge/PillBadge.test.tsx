@@ -13,7 +13,7 @@ describe('PillBadge', () => {
 	it('Renders button with the correct background color', () => {
 		const { container } = render(<PillBadge background='blue'>data</PillBadge>);
 
-		expect(screen.getByText('data').closest('span')).toHaveClass('bg-blue-700');
+		expect(screen.getByText('data')).toHaveClass('bg-blue-700');
 		expect(container).toMatchSnapshot();
 	});
 });
