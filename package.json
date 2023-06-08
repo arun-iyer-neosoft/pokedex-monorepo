@@ -10,7 +10,8 @@
 		"test": "lerna run test --stream --parallel",
 		"build": "lerna run --scope pokedex --stream build",
 		"prod": "lerna run --scope pokedex start ",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"lint": "lerna run lint --stream"
 	},
 	"workspaces": [
 		"packages/*"
