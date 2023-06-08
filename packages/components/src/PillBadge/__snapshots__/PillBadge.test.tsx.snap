@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PillBadge Renders button with the correct background color 1`] = `
+<div>
+  <span
+    class="cursor-pointer bg-blue-700 text-white text-lg rounded-full px-8 py-1 uppercase"
+  >
+    data
+  </span>
+</div>
+`;
+
+exports[`PillBadge Renders the Pill with text 1`] = `
+<div>
+  <span
+    class="cursor-pointer bg-purple-700 text-white text-lg rounded-full px-8 py-1 uppercase"
+  >
+    data
+  </span>
+</div>
+`;

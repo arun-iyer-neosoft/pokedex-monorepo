@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress Renders the Progress Bar 1`] = `
+<div>
+  <div
+    class="h-4 w-full rounded-sm bg-blue-600 text-white"
+    data-testid="progress-bar"
+    style="width: 20%;"
+  />
+</div>
+`;
+
+exports[`Progress Renders the Progress Bar with Width 1`] = `
+<div>
+  <div
+    class="h-4 w-full rounded-sm bg-blue-600 text-white"
+    data-testid="progress-bar"
+    style="width: 20%;"
+  />
+</div>
+`;
+
+exports[`Progress Renders the Progress Bar with background color 1`] = `
+<div>
+  <div
+    class="h-4 w-full rounded-sm bg-red-400 text-white"
+    data-testid="progress-bar"
+    style="width: 20%;"
+  />
+</div>
+`;
+
+exports[`Progress Renders the Progress Bar with gradient 1`] = `
+<div>
+  <div
+    class="h-4 w-full rounded-sm bg-gradient-to-r from-purple-500 to-fuchsia-500 text-white"
+    data-testid="progress-bar"
+    style="width: 20%;"
+  />
+</div>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Button should be disabled when loading is true 1`] = `
+<div>
+  <button
+    class="mb-12 px-6 py-2 rounded-lg text-xl bg-blue-600 hover:bg-blue-700 text-white disabled:opacity-70"
+    disabled=""
+    type="button"
+  >
+    click me
+  </button>
+</div>
+`;
+
+exports[`Button Renders button with the correct variant color 1`] = `
+<div>
+  <button
+    class="mb-12 px-6 py-2 rounded-lg text-xl bg-blue-600 hover:bg-blue-700 text-white disabled:opacity-70"
+    type="button"
+  >
+    click me
+  </button>
+</div>
+`;
+
+exports[`Button Renders the Button with text 1`] = `
+<div>
+  <button
+    class="mb-12 px-6 py-2 rounded-lg text-xl bg-blue-600 hover:bg-blue-700 text-white disabled:opacity-70"
+    type="button"
+  >
+    click me
+  </button>
+</div>
+`;

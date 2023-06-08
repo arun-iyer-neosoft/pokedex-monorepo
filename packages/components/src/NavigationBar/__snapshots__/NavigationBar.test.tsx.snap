@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar Renders the Navigation Bar with brand text 1`] = `
+<div>
+  <nav
+    class="bg-blue-600 p-6"
+  >
+    <div
+      class="max-w-7xl mx-auto flex items-center justify-between"
+    >
+      <div>
+        Pokedex
+      </div>
+      <div />
+    </div>
+  </nav>
+</div>
+`;

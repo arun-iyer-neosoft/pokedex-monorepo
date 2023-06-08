@@ -1,0 +1,60 @@
+{
+	"name": "@ui/components",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"rollup": "rollup -c",
+		"tailwind:build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+		"compile": "npm run tailwind:build && npm run rollup",
+		"test": "jest",
+		"lint": "eslint --ext .ts --ext .tsx ."
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"files": [
+		"dist"
+	],
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"types": "dist/index.d.ts",
+	"peerDependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"tailwindcss": "^3.3.2",
+		"@emotion/react": "^11.11.0",
+		"@emotion/styled": "^11.11.0",
+		"@mui/material": "^5.13.4",
+		"@mui/x-data-grid": "^6.6.0"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^25.0.0",
+		"@rollup/plugin-json": "^6.0.0",
+		"@rollup/plugin-node-resolve": "^15.1.0",
+		"@rollup/plugin-terser": "^0.4.3",
+		"@rollup/plugin-typescript": "^11.1.1",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^14.0.0",
+		"@testing-library/user-event": "^14.4.3",
+		"@types/jest": "^29.5.2",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "^20.2.5",
+		"@types/react": "^18.2.8",
+		"@types/react-dom": "^18.2.4",
+		"eslint": "^8.42.0",
+		"eslint-config-react-app": "^7.0.1",
+		"jest-environment-jsdom": "^29.5.0",
+		"rollup": "^2.79.1",
+		"rollup-plugin-dts": "^5.3.0",
+		"rollup-plugin-peer-deps-external": "^2.2.4",
+		"rollup-plugin-postcss": "^4.0.2",
+		"ts-jest": "^29.1.0",
+		"typescript": "^5.1.3"
+	}
+}

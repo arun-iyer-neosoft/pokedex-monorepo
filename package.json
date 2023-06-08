@@ -1,0 +1,22 @@
+{
+	"name": "root",
+	"private": true,
+	"scripts": {
+		"bootstrap": "npm install && lerna bootstrap",
+		"dev": "lerna run --scope pokedex --stream dev",
+		"compile:components": "lerna run --scope @ui/components --stream compile",
+		"compile:utils": "lerna run --scope @pd/utils --stream compile",
+		"compile": "npm run compile:components && npm run compile:utils",
+		"test": "lerna run test --stream --parallel",
+		"build": "lerna run --scope pokedex --stream build",
+		"prod": "lerna run --scope pokedex start ",
+		"prepare": "husky install"
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"devDependencies": {
+		"lerna": "^6.6.2",
+		"husky": "^8.0.0"
+	}
+}
